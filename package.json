@@ -6,9 +6,12 @@
   "author": "jian",
   "license": "MIT",
   "private":true,
-  "workspaces":["client","server"],
+  "workspaces":[
+    "client",
+    "server"
+  ],
   "scripts": {
-    "client": "yarn workspaces client start",
-    "server": "yarn workspaces server start"
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
   }
 }

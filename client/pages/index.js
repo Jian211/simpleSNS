@@ -1,5 +1,7 @@
 const Home = () => (
-    <h1>simpleSNS</h1>
+    <>
+        <h1>simpleSNS</h1>
+    </>
 )
 
 export default Home
