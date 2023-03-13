@@ -2,5 +2,13 @@
   "name": "simpleSNS",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "repository": "https://github.com/Jian211/simpleSNS",
+  "author": "jian",
+  "license": "MIT",
+  "private":true,
+  "workspaces":["client","server"],
+  "scripts": {
+    "client": "yarn workspaces client start",
+    "server": "yarn workspaces server start"
+  }
 }
